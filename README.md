@@ -5,11 +5,19 @@ Material Design for Bootstrap Asset for Yii2 Web Application. Material design th
 Installation
 ------------
 
+Add 
+
 ```
-php composer.phar require mist-webit/yii2-bootstrap-material-design "*"
+"repositories":
+            [
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/mist-webit/yii2-bootstrap-material-design"
+                }
+            ],
 ```
 
-or add 
+to your composer.json file and add 
 
 ```
 "mist-webit/yii2-bootstrap-material-design": "*"
